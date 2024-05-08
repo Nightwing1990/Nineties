@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Navigation Example</title>
+    <style>
+        body {
+            background-color: black;
+            color: skyblue;
+            font-size: 36px; /* You can adjust the font size as needed */
+        }
+
+        .navbar {
+            background-color: #333; /* Dark background color for the navbar */
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: skyblue;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd; /* Change background color on hover */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+    </div>
+    <button onclick="navigateToDexScreener()">Check the chart</button>
+    <br>
+    <a href="https://twitter.com/nninety90" target="_blank">Follow Nineties on Twitter</a>
+    <br>
+    <a href="https://discord.gg/sjEu5eft" target="_blank">Join Nineties on Discord</a>
+    <br>
+    <a href="https://t.me/+0QWgrZ_cwxZkZjAx" target="_blank">Join Nineties on Telegram</a>
+
+    <script>
+        function navigateToDexScreener() {
+            window.location.href = "https://dexscreener.com/";
+        }
+    </script>
+</body>
+</html>
